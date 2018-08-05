@@ -1,0 +1,50 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+body{
+
+}
+.container {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	background: url(130.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 49%;
+	transform: translate(-50%, -50%);
+	font-size: 5em;
+	font-family: 'Damion', cursive;
+	font-weight: bolder;
+	color: #EBC944;
+	
+
+}
+
+
+span{
+	display: block;
+}
+
+@media screen and (max-width: 769px){
+	.centered{
+		font-size: 4em;
+	}
+}
+@media screen and (min-width: 320px) and (max-width: 768px){
+	.centered{
+		font-size: 2em;
+	}
+}
+
+@media screen and (max-width: 319px){
+	.centered{
+		font-size: 1.8em;
+	}
+}
