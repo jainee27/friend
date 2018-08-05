@@ -10,7 +10,7 @@ body{
 	height: 100%;
 	width: 100%;
 	text-align: center;
-	background: url(130.jpg) no-repeat center center fixed;
+	background: url("flower.jpg") no-repeat center center fixed;
 	background-size: cover;
 }
 
